@@ -66,7 +66,7 @@ a:active {
 p {
 	line-height: 28px;
 	font-size: 15px;
-	color: #707070;
+	color: #9d9d9d;
 }
 h2 {
 	color: #3e3e3e;
@@ -179,7 +179,7 @@ section {
 }
 .header-main .normal-logo {
 	margin-top: 7px !important;
-	max-width: 290px !important;
+	max-width: 170px !important;
 }
 .header-main .logo-responsive {
 	display: none;
@@ -583,18 +583,18 @@ section {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	background: rgba(15, 15, 15, 0.87) linear-gradient(to left, transparent, transparent, transparent, transparent) repeat scroll 0 0;
-	background: -moz-linear-gradient(top,  rgba(15, 15, 15, 0.87) 0%,rgba(15, 15, 15, 0.87) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(15,15,15,0.87)), color-stop(100%,rgba(15,15,15,0.87))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(15,15,15,0.87) 0%,rgba(15,15,15,0.87) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(15, 15, 15, 0.87) 0%,rgba(15, 15, 15, 0.87) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(15, 15, 15, 0.87) 0%,rgba(15, 15, 15, 0.87) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(15, 15, 15, 0.87) 0%,rgba(15, 15, 15, 0.87) 100%); /* W3C */
+	background: rgba(255, 255, 255, 0.87) linear-gradient(to left, transparent, transparent, transparent, transparent) repeat scroll 0 0;
+	background: -moz-linear-gradient(top,  rgba(255, 255, 255, 0.87) 0%,rgba(226, 226, 226, 0.87) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255, 255, 255, 0.87)), color-stop(100%,rgba(255, 255, 255, 0.87))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255, 255, 255, 0.87) 0%,rgba(255, 255, 255, 0.87) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255, 255, 255, 0.87) 0%,rgba(255, 255, 255, 0.87) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255, 255, 255, 0.87) 0%,rgba(255, 255, 255, 0.87) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.87) 0%,rgba(255, 255, 255, 0.87) 100%); /* W3C */
 }
 .carousel-caption-1 h2 {
 	font-size: 55px;
-	color: #fff;
-	font-family: "Abril Fatface",cursive;
+	color: rgb(0, 0, 0);
+	/* font-family: "Abril Fatface",cursive; */
 	text-align: left;
 	margin: 100px 0 20px;
 	width: 50%;
@@ -680,28 +680,28 @@ section {
 }
 .icons-color .fa-twitter {
 	font-size: 15px;
-	color: #FFF;
+	color: #26d3f9;
 }
 .icons-color .fa-twitter:hover {
 	color: #26d3f9;
 }
 .icons-color .fa-facebook {
 	font-size: 15px;
-	color: #FFF;
+	color: #1852a9;
 }
 .icons-color .fa-facebook:hover {
 	color: #1852a9;
 }
 .icons-color .fa-rss {
 	font-size: 15px;
-	color: #FFF;
+	color: #ff8a00;
 }
 .icons-color .fa-rss:hover {
 	color: #ff8a00;
 }
 .icons-color .fa-google-plus {
 	font-size: 15px;
-	color: #FFF;
+	color: #fb4343;
 }
 .icons-color .fa-google-plus:hover {
 	color: #fb4343;
@@ -809,7 +809,7 @@ section {
 	margin-top: 0;
 }
 .carousel-indicators .active {
-	color: #fff;
+	color: #1bb731;
 }
 .social-link {
 	float: left;
@@ -1988,7 +1988,7 @@ figure.effect-portfolio:hover img {
 	display: inline-block;
 }
 .footer-bottom {
-	background-color: #0f0f0f;
+	background-color: #ffffff;
 	padding: 50px 0;
 }
 .footer-bottom ul {
@@ -2001,7 +2001,7 @@ figure.effect-portfolio:hover img {
 }
 .footer-bottom ul li a {
 	font-size: 15px;
-	color: #c5c5c5;
+	color: #9d9d9d;
 	text-decoration: none;
 }
 .footer-bottom ul li a:hover {
@@ -3439,6 +3439,7 @@ Modules - reusable parts of our design
 	font-size: 13px;
 	display: inline-block;
 	background-color: #fff;
+	border: 1px solid #1bb731;
 	color: #242324 !important;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
@@ -3496,12 +3497,18 @@ span.whiteText {
 	color: #ffffff;
 }
 span.highlightedText {
-	color: #ffffff;
+	color: #1bb731;
 	border-bottom: 1px solid #1bb731;
 	font-weight: bold;
 }
 span.highlightedTextGreen {
 	color: #3e3e3e;
+	border-bottom: 1px solid #1bb731;
+	font-weight: bold;
+}
+
+.highlightedText{
+	color: #1bb731 !important;
 	border-bottom: 1px solid #1bb731;
 	font-weight: bold;
 }

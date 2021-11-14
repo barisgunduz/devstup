@@ -36,14 +36,6 @@ export default {
 		script: [
 			{ src: "js/jquery-3.1.0.min.js", body: true },
 			{ src: "js/bootstrap.min.js", body: true },
-			{ src: "js/isotope.pkgd.min.js", body: true },
-			{ src: "js/jquery.inview.min.js", body: true },
-			{ src: "js/jquery.waypoints.min.js", body: true },
-			{ src: "js/jquery.counterup.js", body: true },
-			{ src: "js/wow.min.js", body: true },
-			{ src: "js/menu.js", body: true },
-			{ src: "js/custom-scripts.js", body: true },
-			{ src: "js/contact.js", body: true },
 		],
 	},
 

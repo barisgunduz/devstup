@@ -22,28 +22,11 @@
 							<i class="fa fa-heart" aria-hidden="true"></i> by
 							<span class="highlightedTextGreen">Devstup</span>
 						</p>
-						<div id="number-stats" class="stats-box">
-							<div class="box">
-								<h4>Stats</h4>
-								<h5>Achievments</h5>
-							</div>
-							<div class="box">
-								<div class="counter">9</div>
-								<h6>Skills</h6>
-							</div>
-							<div class="box">
-								<div class="counter">121</div>
-								<h6>Clients</h6>
-							</div>
-							<div class="box">
-								<div class="counter">245</div>
-								<h6>Projects</h6>
-							</div>
-						</div>
-						<a href="about-us" class="button button-wayra">
+						<Stats />
+						<NuxtLink class="button button-wayra" to="/about-us">
 							<span>Learn More</span>
 							<i class="fa fa-long-arrow-right"></i>
-						</a>
+						</NuxtLink>
 					</div>
 				</div>
 			</div>

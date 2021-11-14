@@ -1,83 +1,60 @@
 <template>
-	<div>
-		<!--Header-->
-		<header class="header-main">
-			<div class="container">
-				<div class="row">
-					<div
-						class="col-lg-6 col-md-6 col-sm-6 col-xs-8"
-						data-wow-duration="2s"
-					>
-						<h1>
-							<NuxtLink to="/">
-								<img
-									class="img-responsive normal-logo"
-									src="/img/logo2.png"
-									alt="logo"
-								/>
-								<img
-									class="logo-responsive"
-									src="/img/logo-mobile.png"
-									alt="logo-responsive"
-								/>
-							</NuxtLink>
-						</h1>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
-						<div id="cd-main-content">
-							<div class="cd-header">
-								<a class="cd-menu-trigger" href="#main-nav"
-									><span></span
-								></a>
-							</div>
-						</div>
-						<nav id="main-nav">
-							<ul>
-								<li>
-									<NuxtLink to="/"
-										><span
-											><sup>01.</sup> Home</span
-										></NuxtLink
-									>
-								</li>
-								<li>
-									<NuxtLink to="/about-us"
-										><span
-											><sup>02.</sup> About</span
-										></NuxtLink
-									>
-								</li>
-								<li>
-									<NuxtLink to="/service"
-										><span
-											><sup>03.</sup> Services</span
-										></NuxtLink
-									>
-								</li>
-								<li>
-									<NuxtLink to="/portfolio"
-										><span
-											><sup>04.</sup> Portfolio</span
-										></NuxtLink
-									>
-								</li>
-							</ul>
-							<a href="#0" class="cd-close-menu"
-								>Close<span></span
-							></a>
-						</nav>
-					</div>
+	<!--Header-->
+	<header class="header-main">
+		<div class="container">
+			<div class="row">
+				<div
+					class="col-lg-6 col-md-6 col-sm-6 col-xs-8"
+					data-wow-duration="2s">
+					<h1>
+						<NuxtLink to="/">
+							<img
+								class="img-responsive normal-logo"
+								src="/img/logo2b.png"
+								alt="logo" />
+							<img
+								class="logo-responsive"
+								src="/img/logo-mobile.png"
+								alt="logo-responsive" />
+						</NuxtLink>
+					</h1>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+					<ul class="menu">
+						<li><NuxtLink to="/">Home</NuxtLink></li>
+						<li><NuxtLink to="/about-us">About</NuxtLink></li>
+						<li><NuxtLink to="/service">Services</NuxtLink></li>
+						<li>
+							<NuxtLink to="/portfolio">Portfolio</NuxtLink>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</header>
-		<!--Header End-->
-	</div>
+		</div>
+	</header>
+	<!--Header End-->
 </template>
 
 <script>
-export default {
-	
-};
+export default {};
 </script>
 
-<style></style>
+<style scoped>
+.menu {
+	display: flex;
+	flex-direction: row;
+	margin-top: 25px;
+}
+.menu li {
+	margin-left: 50px;
+	list-style-type: none;
+}
+.menu li a {
+	font-size: 15px;
+	color: #9d9d9d;
+	text-decoration: none;
+}
+.menu li a:hover {
+	color: #1fb834;
+}
+</style>
