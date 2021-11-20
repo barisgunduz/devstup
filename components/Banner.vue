@@ -17,7 +17,7 @@
 								<div class="col-lg-12">
 									<div class="row">
 										<h2>
-											Web<span class="dotGreen">.</span>
+											<span class="dotGreen">.</span>
 											Development
 										</h2>
 										<p>
